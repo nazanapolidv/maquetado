@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 100%;
+}
+main{
+    margin-bottom: 30px;
+}
+.container_header, .container_footer{
+    background-color: #ECEFF1;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+.logo img{
+    width: 100px;
+    height: auto;
+}
+.session a img{
+    width: 30px;
+    height: auto;
+}
+.menu_list{
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+.menu_list li a{
+    text-decoration: none;
+    padding: 10px;
+    color: #DC143C;
+    font-weight: bold;
+}
+.footer_content, .contact_info, .legal{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20px;
+}
+.social_media{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+.social_media a img{
+    width: 30px;
+    height: auto;
+}
+.legal{
+    font-weight: lighter;
+    font-size: 12px;
+}
+
+/* Estilos botones */
+.primary_button,.secondary_button{
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    margin: 10px;
+}
+.primary_button {
+    background-color: #DC143C;
+    color: #ECEFF1;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+.primary_button:hover {
+    background-color: #C71585;
+}
+.secondary_button {
+    background-color: #005F73;
+    color: #ECEFF1;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+.secondary_button:hover {
+    background-color: #4682B4;
+}
+/* Estilos subtítulos */
+.subtitle{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #DC143C;
+    margin: 20px 0;
+}
