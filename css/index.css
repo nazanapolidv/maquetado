@@ -3,6 +3,13 @@
   transition: transform 0.3s ease;
   cursor: pointer;
 }
+.description_main{
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #2c3e50;
+    margin: 20px 0;
+}
 .container_button{
     display: flex;
     justify-content: center;

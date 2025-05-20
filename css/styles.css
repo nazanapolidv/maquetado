@@ -48,6 +48,9 @@ main{
     align-items: center;
     flex-direction: row;
 }
+.social_media a{
+    padding: 0 10px;
+}
 .social_media a img{
     width: 30px;
     height: auto;
@@ -91,11 +94,18 @@ main{
 .secondary_button:hover {
     background-color: #4682B4;
 }
-/* Estilos subtítulos */
+/* Estilos titulo y subtítulo */
+.title{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: #DC143C;
+    margin: 20px 0;
+}
 .subtitle{
     text-align: center;
     font-size: 24px;
     font-weight: bold;
-    color: #DC143C;
+    color: #005F73;
     margin: 20px 0;
 }
