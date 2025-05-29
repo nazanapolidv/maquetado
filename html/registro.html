@@ -1,122 +1,168 @@
 <!DOCTYPE html>
 <html lang="es">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Registrarse</title>
-    <link rel="stylesheet" href="../css/styles.css">
-    <link rel="stylesheet" href="../css/registro.css">
-</head>
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="../css/registro.css" />
+  </head>
 
-<body>
+  <body>
     <header>
-        <div class="container_header">
-            <div class="logo">
-                <a href="../index.html"><img src="../assets/logo-removebg-preview.png" alt="Logo"></a>
-            </div>
-            <nav class="menu">
-                <ul class="menu_list">
-                    <li><a href="../index.html">Inicio</a></li>
-                    <li><a href="misalud.html">Mi Salud</a></li>
-                    <li><a href="contacto.html">Contacto</a></li>
-                </ul>
-            </nav>
-            <div class="session">
-                <a href="inicio-sesion.html"><img src="../assets/profile.png" alt="iniciar sesion o registrarse"></a>
-            </div>
+      <div class="container_header">
+        <div class="logo">
+          <a href="../index.html"
+            ><img src="../assets/logo-removebg-preview.png" alt="Logo"
+          /></a>
         </div>
+        <nav class="menu">
+          <ul class="menu_list">
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="misalud.html">Mi Salud</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </nav>
+        <div class="session">
+          <a href="inicio-sesion.html"
+            ><img
+              src="../assets/profile.png"
+              alt="iniciar sesion o registrarse"
+          /></a>
+        </div>
+      </div>
     </header>
     <main>
-        <div class="container_registro">
-            <div class="main_image">
-                <a href="../index.html">
-                    <img src="../assets/logo-removebg-preview.png" alt="Hospital Polaco">
-                </a>
-            </div>
-            <div class="form_group">
-                <h1 class="title">Registrarse</h1>
-            </div>
-            <div class="container_form">
-                <form action="#" method="post">
-                    <div class="form_group">
-                        <label for="name">Nombre</label>
-                        <input placeholder="Juan" type="text" id="name" name="name" required>
-                    </div>
-
-                    <div class="form_group">
-                        <label for="email">Apellido</label>
-                        <input placeholder="Perez" type="email" id="email" name="email" required>
-                    </div>
-
-                    <div class="form_group">
-                        <label for="tipo-doc">Tipo de documento</label>
-                        <select name="tipo-doc" id="tipo-doc" required>
-                            <option value="" disabled selected>Selecciona una opción</option>
-                            <option value="dni">DNI</option>
-                            <option value="pasaporte">Pasaporte</option>
-                            <option value="cedula">Cédula de identidad</option>
-                        </select>
-                    </div>
-
-                    <div class="form_group">
-                        <label for="documento">Numero de documento</label>
-                        <input placeholder="" type="number" id="documento" name="documento" required>
-                    </div>
-
-                    <div class="form_group">
-                        <label for="genero">Genero</label>
-                        <select name="genero" id="genero" required>
-                            <option value="" disabled selected>Selecciona una opción</option>
-                            <option value="masculino">Masculino</option>
-                            <option value="femenino">Femenino</option>
-                            <option value="no-binario">No binario</option>
-                        </select>
-                    </div>
-
-                    <div class="form_group">
-                        <label for="date">Fecha de nacimiento</label>
-                        <input type="date" id="date" name="date" required>
-                    </div>
-
-                    <div class="form_group">
-                        <label for="tel">Celular</label>
-                        <input placeholder="011 2230 4880" type="tel" id="tel" name="tel" required>
-                    </div>
-
-                    <div class="form_group">
-                        <label for="email">Mail</label>
-                        <input placeholder="ejemplo@gmail.com" type="email" id="email" name="email" required>
-                    </div>
-                    <button type="submit" class="primary_button">Registrarse</button>
-                </form>
-            </div>
+      <div class="container_registro">
+        <div class="main_image">
+          <a href="../index.html">
+            <img
+              src="../assets/logo-removebg-preview.png"
+              alt="Hospital Polaco"
+            />
+          </a>
         </div>
+        <div class="form_group">
+          <h1 class="title">Registrarse</h1>
+        </div>
+        <div class="container_form">
+          <form action="#" method="post">
+            <div class="form_group">
+              <label for="name">Nombre</label>
+              <input
+                placeholder="Juan"
+                type="text"
+                id="name"
+                name="name"
+                required
+              />
+            </div>
+
+            <div class="form_group">
+              <label for="email">Apellido</label>
+              <input
+                placeholder="Perez"
+                type="email"
+                id="email"
+                name="email"
+                required
+              />
+            </div>
+
+            <div class="form_group">
+              <label for="tipo-doc">Tipo de documento</label>
+              <select name="tipo-doc" id="tipo-doc" required>
+                <option value="" disabled selected>
+                  Selecciona una opción
+                </option>
+                <option value="dni">DNI</option>
+                <option value="pasaporte">Pasaporte</option>
+                <option value="cedula">Cédula de identidad</option>
+              </select>
+            </div>
+
+            <div class="form_group">
+              <label for="documento">Numero de documento</label>
+              <input
+                placeholder=""
+                type="number"
+                id="documento"
+                name="documento"
+                required
+              />
+            </div>
+
+            <div class="form_group">
+              <label for="genero">Genero</label>
+              <select name="genero" id="genero" required>
+                <option value="" disabled selected>
+                  Selecciona una opción
+                </option>
+                <option value="masculino">Masculino</option>
+                <option value="femenino">Femenino</option>
+                <option value="no-binario">No binario</option>
+              </select>
+            </div>
+
+            <div class="form_group">
+              <label for="date">Fecha de nacimiento</label>
+              <input type="date" id="date" name="date" required />
+            </div>
+
+            <div class="form_group">
+              <label for="tel">Celular</label>
+              <input
+                placeholder="011 2230 4880"
+                type="tel"
+                id="tel"
+                name="tel"
+                required
+              />
+            </div>
+
+            <div class="form_group">
+              <label for="email">Mail</label>
+              <input
+                placeholder="ejemplo@gmail.com"
+                type="email"
+                id="email"
+                name="email"
+                required
+              />
+            </div>
+            <button type="submit" class="primary_button">Registrarse</button>
+          </form>
+        </div>
+      </div>
     </main>
     <footer>
-        <div class="container_footer">
-            <div class="logo">
-                <a href="../index.html"><img src="../assets/logo-removebg-preview.png" alt="Logo"></a>
-            </div>
-            <div class="contact_info">
-                <p><b>Hospital Polaco</b></p>
-                <p>hola@hospitalpolaco.com</p>
-                <p>0800 888 9090</p>
-            </div>
-            <div class="footer_content">
-                <div class="social_media">
-                    <a href="#"><img src="../assets/fb.png" alt="Facebook"></a>
-                    <a href="#"><img src="../assets/x.png" alt="X"></a>
-                    <a href="#"><img src="../assets/instagram.png" alt="Instagram"></a>
-                </div>
-
-                <div class="legal">
-                    <p>©2025 Todos los derechos reservados</p>
-                    <p>Política de privacidad</p>
-                    <p>Términos y condiciones</p>
-                </div>
-            </div>
-
+      <div class="container_footer">
+        <div class="logo">
+          <a href="../index.html"
+            ><img src="../assets/logo-removebg-preview.png" alt="Logo"
+          /></a>
         </div>
+        <div class="contact_info">
+          <p><b>Hospital Polaco</b></p>
+          <p>hola@hospitalpolaco.com</p>
+          <p>0800 888 9090</p>
+        </div>
+        <div class="footer_content">
+          <div class="social_media">
+            <a href="#"><img src="../assets/fb.png" alt="Facebook" /></a>
+            <a href="#"><img src="../assets/x.png" alt="X" /></a>
+            <a href="#"
+              ><img src="../assets/instagram.png" alt="Instagram"
+            /></a>
+          </div>
+
+          <div class="legal">
+            <p>©2025 Todos los derechos reservados</p>
+            <p>Política de privacidad</p>
+            <p>Términos y condiciones</p>
+          </div>
+        </div>
+      </div>
     </footer>
-</body>
+  </body>
+</html>
